@@ -1,8 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  background-color: lightgrey;
+}
+
+h1,h2 {
+  color: rgb(35, 91, 35);
+  text-align: center;
+  font-family: verdana;
+  font-size: 35px;
+}
+
+h4 {
+  color: rgb(35, 91, 35);
+  text-align: left;
+  font-family: verdana;
+  font-size: 25px;
+}   
+h3 {
+  color: rgb(35, 91, 35);
+  text-align: left;
+  font-family: verdana;
+  font-size: 30px;
+}
+  div > h3 {
+  background-color: yellowgreen;
+}
+
+
+figcaption {
+    text-align: center;
+  color: rgb(60, 125, 60);
+  font-family: verdana;
+  font-size: 20px;
+  
+}
+
+p {
+  text-align: justify;
+  color: rgb(58, 126, 58);
+  font-family: verdana;
+  font-size: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</style>
+<head>
     <title>Favorite Artist</title>
 </head>
 <body>
@@ -28,22 +78,31 @@
         
         <section id="discography">
             <h2>Discography</h2>
-            <article>
-                <h3>Fallen</h3>
-                <p>The album was released on March 4, 2003. It was accepted and got positive reviews from critics. The most popular songs are: "Bring Me to Life", "Going Under", "My Inmortal", and "Everybody Fools"</p>
+                <div>
+                    <h3>Fallen</h3>
+                    <h3>The Open Door</h3>
+                    <h3>Evanescence</h3>
+                    <section>
+                        <h3>Synthesis</h3>
+                        <h3>The Bitter Truth</h3>
+                    </section>
+                </div>
+
+                    <h4>Fallen</h4>
+                    <p>The album was released on March 4, 2003. It was accepted and got positive reviews from critics. The most popular songs are: "Bring Me to Life", "Going Under", "My Inmortal", and "Everybody Fools"</p>
                 
-                <h3>The Open Door</h3>
-                <p>The album was realesed on September 25, 2006. The band incorporate new sounds to their previous styles. The most popular songs are: "Sweet Sacrifice" and "Call Me When You're Sober".</p>
+                    <h4>The Open Door</h4>
+                    <p>The album was realesed on September 25, 2006. The band incorporate new sounds to their previous styles. The most popular songs are: "Sweet Sacrifice" and "Call Me When You're Sober".</p>
                 
-                <h3>Evanescence</h3>
-                <p>The album was realesed on October 7, 2011. The band incorporate new sounds to their previous styles such as hard rock and symphonic metal. The most popular songs are: "What You Want" and "My Heart Is Broken".</p>
+                    <h4>Evanescence</h4>
+                    <p>The album was realesed on October 7, 2011. The band incorporate new sounds to their previous styles such as hard rock and symphonic metal. The most popular songs are: "What You Want" and "My Heart Is Broken".</p>
+
+                    <h4>Synthesis</h4>
+                    <p>The album was realesed on November 10, 2017. The band incorporate new sounds to their previous styles such as orchestral and electronica.</p>
                 
-                <h3>Synthesis</h3>
-                <p>The album was realesed on November 10, 2017. The band incorporate new sounds to their previous styles such as orchestral and electronica.</p>
-                
-                <h3>The Bitter Truth</h3>
-                <p>The album was realesed on March 26, 2021. The band delayed the completion for pandemic.</p>
-            </article>
+                    <h4>The Bitter Truth</h4>
+                    <p>The album was realesed on March 26, 2021. The band delayed the completion for pandemic.</p>
+
         </section>
         
         <main>
@@ -54,17 +113,19 @@
                 </article>
             </section>
 
-        <section id="gallery">
+            <section id="gallery">
             <h2>Gallery</h2>
-            <article>
-                <img src="https://thumb.spokesman.com/R-W5-Eaz8rhjrAPqk8WILhSrW8g=/400x0/media.spokesman.com/photos/2004/10/24/fea_evanescence_10-24-2004_252RVNE.jpg" alt="Artist Image">
-                <figcaption>File/Associated Press / The Spokesman-Review.</figcaption>
-            
-                <img src="https://www.1057thepoint.com/wp-content/uploads/2022/08/G_evanescence_082223.jpg" alt="Artist Image">
-                <figcaption>Kevin Winter/Getty Images.</figcaption>
-
-            </article>
-        </section>
+            <body>
+                <div class="link">
+                    <img src="https://thumb.spokesman.com/R-W5-Eaz8rhjrAPqk8WILhSrW8g=/400x0/media.spokesman.com/photos/2004/10/24/fea_evanescence_10-24-2004_252RVNE.jpg" alt="Artist Image"> 
+                    <figcaption>File/Associated Press / The Spokesman-Review.</figcaption>
+                    
+                <div class="image">
+                    <img src="G_evanescence_082223.jpg">                                                                               
+                    <figcaption>Kevin Winter/Getty Images.</figcaption>
+                  
+                </div>
+            </body>
     </main>
     
     <footer>
